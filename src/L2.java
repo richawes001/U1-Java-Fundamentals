@@ -1,5 +1,6 @@
 public class L2 {
 
+    //add the main method header
         public static void main(String[] args){
             String firstName = "George";
             int age = 16;
