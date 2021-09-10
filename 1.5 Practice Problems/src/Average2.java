@@ -3,6 +3,8 @@ public class Average2 {
     Given two numbers, num1 and num2, output the average.
     */
 
+    //comment so I can commit and push all 1.5 practice problems
+
     public static void main(String[] args) {
 
         int num1 = 3498;

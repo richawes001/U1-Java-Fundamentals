@@ -7,17 +7,17 @@ public class CalculatingDistance {
 
     */
 
+    //I fixed it. Now I can get my perfect score.
+
     public static void main(String[] args) {
 
-        double miles = 88.0;
-        double minutes = 48.0;
-        double milesPerMinute = miles / minutes;
+      double miles = 55;
+      double minutes = 45;
+      double hours = minutes/60.0;
 
-        double minutesDriven = 272.0;
+      double milesDriven = miles * hours;
 
-        double milesDriven = milesPerMinute * minutesDriven;
-
-        System.out.print("You drove " + milesDriven + " miles in " + minutesDriven + " minutes.");
+        System.out.println("You drove " + milesDriven + " miles in " + hours + " hours.");
 
     }
 

@@ -8,9 +8,11 @@ public class TimeCrunch {
 
      */
 
+    //comment so I can commit and push all 1.5 practice problems
+
     public static void main(String[] args) {
 
-        int rawTime = 483963;
+        int rawTime = 60;
         int time = rawTime;
 
     int numHours = time/3600;
